@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#9C27B0"
+    tools:context=".DashboardActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Welcome to E learning App"
+       android:gravity="center"
+       android:textSize="80px"
+       android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnDSA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LEARN DSA"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnLearnJava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LEARN JAVA"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnLearnPython"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LEARN PYTHON"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOG OUT!"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>
